@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html ng-app="portfolioApp" class="has-navbar-fixed-bottom" style="background-color: #0288d1">
+<html ng-app="portfolioApp" class="has-navbar-fixed-bottom has-navbar-fixed-top" style="background-color: #0288d1">
     <head>
     	<meta charset="utf-8">
     	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,7 +16,7 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:900|Roboto+Slab" rel="stylesheet">
     </head>
     <body>
-    	<nav class="navbar" id="top">
+    	<nav class="navbar is-fixed-top" id="top">
     		<div class="navrbar-brand">
     			<a ui-sref="index.bio"><h1 class="title" id="Mal">Malcolm Holliday</h1></a>
     		</div>
@@ -25,7 +25,11 @@
     	<div ui-view></div>
 
         <nav class="navbar is-fixed-bottom" id="bot">
-            
+            <div class="navbar-end">
+                <a href="https://github.com/Mholliday6611"><img class="logos" src="client/images/git.png" style="height: 50px; margin-right: 50px;"></a>
+                <a href="https://www.linkedin.com/in/malcolm-holliday/"><img class="logos" src="client/images/link.png" style="height: 50px; margin-right: 50px;"></a>
+                <a href="mailto:Mholliday6611@gmail.com"><img class="logos" src="client/images/mail.png" style="height: 50px;margin-right: 50px;"></a>
+            </div>
         </nav>
         
     </body>

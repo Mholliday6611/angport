@@ -29,13 +29,13 @@ body{
 }
 #projects{
 	margin-top: 13px;
-	height: 630px;
+	height: 85vh;
 	border-right: black solid .5px;
 	overflow-y: scroll;
 }
 p{
 	font-family: 'Roboto Slab', serif, italic;
-	font-size: 18px;
+	font-size: 15px;
 	color: white;
 }
 #biog{
@@ -56,9 +56,8 @@ p{
 	height: 500px
 }
 .card{
-	margin-left: 25px;
 	margin-right: 25px;
 	background-color:#005b9f;
-	margin-bottom: 10px; 
+	margin-bottom: 15px; 
 	box-shadow: 10px 10px 5px #005b9f;
 }
