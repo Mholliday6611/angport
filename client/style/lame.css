@@ -8,6 +8,9 @@ body{
 }
 .stuff{
 }
+.bye{
+	display: inline;
+}
 #Mal{
 	/*margin-top: 5px;*/
 	margin-left: 30px;
