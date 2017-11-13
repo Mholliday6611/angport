@@ -17,5 +17,5 @@ app.use(bodyParser.urlencoded({
 routes(app)
 
 app.listen(process.env.PORT || 8080)
-// mongoose.connect("mongodb://localhost/portfolio");
-mongoose.connect(process.env.DB_URL);
+mongoose.connect("mongodb://localhost/portfolio");
+// mongoose.connect(process.env.DB_URL);
