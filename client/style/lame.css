@@ -1,0 +1,64 @@
+
+body{
+	background-color: #0288d1;
+}
+.proj{
+	border-bottom: white solid 1.5px;
+	margin: 0 auto;
+}
+.stuff{
+}
+#Mal{
+	/*margin-top: 5px;*/
+	margin-left: 30px;
+	font-size: 40px
+}
+
+.title{
+	font-family: 'Lato', sans-serif;
+	color: white
+}
+#top {
+	border-bottom: white solid .5px;
+	background-color:#005b9f;
+}
+#bot{
+	border-top: white solid .5px;
+	background-color:#005b9f;
+	/*min-height: 2.25rem*/
+}
+#projects{
+	margin-top: 13px;
+	height: 630px;
+	border-right: black solid .5px;
+	overflow-y: scroll;
+}
+p{
+	font-family: 'Roboto Slab', serif, italic;
+	font-size: 18px;
+	color: white;
+}
+#biog{
+	margin-top: 10px
+}
+.logos{
+	margin-top: 10px;
+	margin-left: 80px;
+	display: inline-block;
+}
+#info{
+	margin-top: 30px
+}
+#profilepic{
+	display: block;
+	margin: 0 auto;
+	border-radius: 50%;
+	height: 500px
+}
+.card{
+	margin-left: 25px;
+	margin-right: 25px;
+	background-color:#005b9f;
+	margin-bottom: 10px; 
+	box-shadow: 10px 10px 5px #005b9f;
+}

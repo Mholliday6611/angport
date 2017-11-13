@@ -1,0 +1,23 @@
+
+<div class="columns">
+	<div class="column is-one-quarter is-hidden-mobile" id="projects">
+		<div ng-repeat="posts in post" class="proj">
+			<a ui-sref="index.project({projId: posts._id })"><center>
+				<h1 class="title" style="margin-top: 10px">{{posts.title}}</h1>
+				<img style="height:100px;" src="client/images/{{posts.img}}">
+			</center></a>
+		</div>
+	</div>
+	<div class="column" id="info">
+		<ui-view></ui-view>
+	</div>
+	<div class="is-hidden-tablet">
+		<center><h1  class="title" style="margin-top: 20px;margin-bottom: 20px">Projects</h1></center>
+		<div ng-repeat="posts in post" class="proj" onclick="window.scrollTo(0,0)">
+			<a ui-sref="index.project({projId: posts._id })" ><center>
+				<h1 class="title" style="margin-top: 10px">{{posts.title}}</h1>
+				<img style="height:100px;" src="client/images/{{posts.img}}">
+			</center></a>
+		</div>
+	</div>
+</div>
