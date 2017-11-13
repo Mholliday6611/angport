@@ -56,6 +56,7 @@ p{
 	height: 500px
 }
 .card{
+	margin-left: 25px;
 	margin-right: 25px;
 	background-color:#005b9f;
 	margin-bottom: 15px; 
