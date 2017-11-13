@@ -2,14 +2,14 @@ angular.module("portfolioApp.controllers", [])
     .controller("mainCtrl", function($scope){})
 
     .controller("getProjectCtrl", function($scope, $http){
-    	$http.get("http://localhost:8080/api/portfolio")
+    	$http.get("/api/portfolio")
     	.then(function(response){
             console.log(response.data)
             $scope.post = response.data
     	})
     })
     .controller("projectCtrl", function($scope, $http, $stateParams){
-        $http.get("http://localhost:8080/api/project/:id", {params :{id:$stateParams.projId}})
+        $http.get("/api/project/:id", {params :{id:$stateParams.projId}})
         .then(function(response){
             console.log(response.data)
             $scope.post = response.data
